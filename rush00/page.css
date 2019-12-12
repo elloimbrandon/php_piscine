@@ -1,0 +1,54 @@
+.icon
+{
+	display:block;
+	width:50px;
+	height:50px;
+}
+
+#top
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:blue;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li
+{
+	display:inline;
+	float:left;
+	border-right:1px solid #bbb;
+}
+
+li a
+{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover
+{
+	border: 1px solid white;
+}
+
+li:last-child
+{
+	border-right:none;
+}
+
+#bottom
+{
+	width:100%;
+	background-color:black;
+}
