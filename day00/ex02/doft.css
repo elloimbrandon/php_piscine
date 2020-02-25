@@ -1,0 +1,73 @@
+.header {
+    width: 74%;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.body {
+    background-color: #505050;
+}
+
+.middle_panel {
+    width: 1500px;
+    margin: auto;
+}
+
+.left_panel {
+    width: 160px;
+    height: 460px;
+    margin: left;
+}
+
+.left {
+    width: 9%;
+    height: auto;
+    margin: auto;
+    margin-left: 210px;
+    margin-top: 1%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon{
+    margin: 8px;
+}
+
+.backround {
+    background: rgb(145, 145, 145);
+}
+.box_shadow {
+    box-shadow: 10px 10px 15px black;
+}
+.border {
+    color: black;
+    border-radius: 15px;
+}
+.search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.absolute_right {
+    position: absolute;
+    right: 0px;
+    margin-top: -8px;
+    height: auto;
+    display: inline-block;
+    width: 3%;
+}
+
+.absolute_right_bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: auto;
+    display: inline-block;
+    width: 3%;
+}
