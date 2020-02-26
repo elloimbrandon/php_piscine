@@ -20,19 +20,31 @@
 .left_panel {
     width: 160px;
     height: 460px;
-    margin: left;
+}
+
+.right_panel {
+    width: 160px;
+    height: 460px;
+}
+.middle{
+    width: 825px;
+    margin-left: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.right {
+    width: 120px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 .left {
     width: 120px;
-    height: auto;
-    margin: auto;
-    margin-left: 210px;
-    margin-top: 1%;
-    position: absolute;
     display: flex;
     flex-direction: column;
-
 }
 
 .icon{
