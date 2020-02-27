@@ -63,6 +63,39 @@
     margin: 8px;
 }
 
+.g_form {
+    background-color: #88ff89;
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    height: 150px;
+    width: 450px;
+    border-color: #88ff89;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.g_form p {
+    margin: 0px;
+    margin-bottom: 1em;
+    margin-left: 10px;
+}
+
+span.ordinateurs{
+    text-shadow: 4px 4px 6px red;
+}
+
+span.entrez{
+    font-size: 30px;
+    font-family: serif;
+    font-family: Georgia;
+}
+
+.text-input {
+    margin-left: 10px;
+    width: 70%;
+}
+
 .backround {
     background: rgb(145, 145, 145);
 }
