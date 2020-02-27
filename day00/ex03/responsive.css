@@ -1,0 +1,27 @@
+        body{
+            background-color: blueviolet;
+        }
+        .title{
+            color: yellowgreen;
+            text-align: center;
+        }
+        .name {
+            text-align: center;
+            font: bold;
+        }
+        .element {
+            color: greenyellow;
+            background-image: linear-gradient(to bottom right, blue, blueviolet);
+            padding: 3px;
+        }
+        .table {
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            table-layout: fixed;
+            font-family:Arial, sans-serif;
+        }
+        .weight {
+            text-align: right;
+        }
