@@ -96,6 +96,21 @@ span.entrez{
     width: 70%;
 }
 
+.chair{
+    position: absolute;
+    height: 225px;
+    width: 135px;
+    top: 320px;
+    left: 420px;
+}
+
+.computer{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 320px;
+    right: 200px;
+}
 .backround {
     background: rgb(145, 145, 145);
 }
