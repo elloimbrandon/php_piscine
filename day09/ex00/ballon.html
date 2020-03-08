@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Balloon</title>
     <style>
-        #balloon {
+        #balloon
+        {
             height: 200px;
             width: 200px;
             background-color: red;
@@ -16,37 +17,45 @@
         var colorIndex = 0;
         var size = 200;
 
-        window.onload = function () {
+        window.onload = function ()
+        {
             const balloon = document.querySelector("#balloon");
             balloon.addEventListener("click", balloonClick);
             balloon.addEventListener("mouseleave", balloonMouse);
         }
 
-        function balloonMouse(){
+        function balloonMouse()
+        {
             size -= 5;
-            if (size < 200) {
+            if (size < 200)
+            {
                 size = 200;
             }
             colorIndex--;
-            if (colorIndex < 0) {
+            if (colorIndex < 0)
+            {
                 colorIndex = 2;
             }
             balloonRefresh();
         }
 
-        function balloonClick() {
+        function balloonClick()
+        {
             size += 10;
-            if (size > 420) {
+            if (size > 420)
+            {
                 size = 200;
             }
             colorIndex++;
-            if (colorIndex > 2) {
+            if (colorIndex > 2)
+            {
                 colorIndex = 0;
             }
             balloonRefresh();
         }
 
-        function balloonRefresh(){
+        function balloonRefresh()
+        {
             balloon.style.height = size + 'px';
             balloon.style.width = size + 'px';
             balloon.style.backgroundColor = color[colorIndex];
