@@ -1,4 +1,4 @@
-let ft_list = [];
+let ft_list;
 
 window.onload = function ()
 {
